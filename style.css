@@ -1,0 +1,127 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: normal;
+    
+
+}
+
+
+img {
+    width: 200px ;
+    position: fixed;
+    border-radius: 50%;
+    top: 80px;
+    right: 1250px
+  }
+
+
+
+  
+body {
+    padding: 0;
+    margin: 0;
+    background: #000022;
+}
+.Calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.Calculator-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+.Calculator-grid > button:hover {
+    background-color: rgba(255, 255, 255, .9);
+}
+.span-two {
+    grid-column: span 2;
+}
+.output {
+    grid-column: 1 / -1;
+    background-color: #FCB42A;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.output .previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+.output .current-operand {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.form-pipi {
+
+    font-family: 'Press Start 2P', sans-serif;
+    color: #FCB42A;
+    font-size: 10px;    
+    position: fixed;
+    top: 680px;
+    right: 1290px
+}
+
+.form-caca {
+    
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #FCB42A;
+    font-size: 40px;
+    position: fixed;
+    top: 50px;
+    right: 40px    
+}
+
+.form-chichi {
+    
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #a66f09;
+    font-size: 40px;
+    position: fixed;
+    top: 100px;
+    right: 40px    
+}
+
+
+
+
+.form-discmerde {
+    
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    position: fixed;
+    top: 300px;
+    right: 1200px 
+}
+
+
+
+.form-logodisc  {
+    width: 200px ;
+    position: fixed;
+    border-radius: 50%;
+    top: 90px;
+    right: 1250px
+  }
